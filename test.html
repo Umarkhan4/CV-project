@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #191923;
+      }
+      .left {
+        float: left;
+        background-color: #24242f;
+        width: 20%;
+      }
+      .right {
+        float: left;
+        background-color: #32323f;
+        width: 80%;
+      }
+      .main-info {
+        background-image: url("images/bgimg.jpg");
+        color: #fff;
+      }
+      .overlay {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 60px;
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          color-stop(15%, rgba(45, 45, 58, 0.9)),
+          color-stop(50%, rgba(45, 45, 58, 0.7)),
+          to(rgba(43, 43, 53, 0.7))
+        );
+        background-image: linear-gradient(
+          90deg,
+          rgba(45, 45, 58, 0.9) 15%,
+          rgba(45, 45, 58, 0.7) 50%,
+          rgba(43, 43, 53, 0.7) 100%
+        );
+      }
+      .inner-section {
+        padding: 20px;
+      }
+      .feed-back {
+        display: flex;
+      }
+      .feed-back div {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        color: #fff;
+      }
+      .feed-back div h3 {
+        text-align: center;
+      }
+      .feed-back div span {
+        color: #ffc107;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="left">
+      <div class="biodiv">
+        <img class="bio-pic" src="images/download.jpg" alt="profile-pic" />
+        <h1 class="profile-text">Profile</h1>
+        <h2>Front-end developer</h2>
+        <div class="about">
+          <h4>Resident: <span>pakistan</span></h4>
+          <h4>City: <span>Mansehra</span></h4>
+          <h4>AGE: <span>23</span></h4>
+          <hr />
+          <h4>Lanuages</h4>
+          <ul>
+            English
+          </ul>
+          <ul>
+            Pashto
+          </ul>
+          <ul>
+            Urdr
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="right">
+      <div class="inner-section">
+        <div class="main-info">
+          <div class="overlay">
+            <div class="art-banner-title">
+              <!-- title -->
+              <h1 class="art-banner-title-h mb-15">
+                <span> Discover my Amazing <br />Art Space! </span>
+              </h1>
+              <!-- suptitle -->
+              <div class="art-lg-text art-code mb-25">
+                &lt;<i>code</i>&gt; I build
+                <span
+                  class="txt-rotate"
+                  data-period="2000"
+                  data-rotate='[ "web interfaces.","ios and android applications.","design mockups.","automation tools." ]'
+                  ><span class="wrap">web interfaces.</span></span
+                >
+                &lt;/<i>code</i>&gt;
+              </div>
+              <div class="art-buttons-frame">
+                <!-- button -->
+                <a
+                  href="https://bslthemes.com/arter/portfolio/"
+                  class="art-btn art-btn-md"
+                  ><span>Explore now</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <img class="bg-img" src="images/bgimg.jpg" alt="" /> -->
+        </div>
+        <div class="feed-back">
+          <div>
+            <span>10 +</span>
+            <h3>Experiance</h3>
+          </div>
+          <div>
+            <h3>
+              <span>44</span>
+              Projects
+            </h3>
+          </div>
+          <div>
+            <h3>
+              <span>57</span>
+              Awards
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

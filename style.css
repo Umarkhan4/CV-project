@@ -16,12 +16,12 @@ body {
 }
 
 .bio-pic {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 3px solid white;
   border-radius: 100%;
   margin: 30px;
-  margin-left: 70px;
+  margin-left: 90px;
 }
 .profile-text {
   text-align: center;
@@ -43,12 +43,12 @@ hr {
   background-color: antiquewhite;
   size: 2px;
 }
-ul{
-    float: left;
-    margin-top: 20px;
-    font-size: medium;
-    justify-content: space-between;
-    color: aliceblue;
+ul {
+  float: left;
+  margin-top: 20px;
+  font-size: larger;
+  justify-content: space-between;
+  color: aliceblue;
 }
 .bg-img {
   width: 100%;
@@ -58,9 +58,23 @@ ul{
 .main-info {
   float: right;
   width: 75%;
+  padding: 0 10px;
 }
-.card{
-    margin-top: 30px;
-    background-color: rgb(40, 36, 36);
-    color: antiquewhite;
+.feed-back{
+  display: flex;
+  color: yellow;
+}
+span{
+  margin-left:  20px;
+  font-weight: bolder;
+}
+.card {
+  margin-top: 30px;
+  background-color: rgb(40, 36, 36);
+  color: antiquewhite;
+  margin-bottom: 30px;
+}
+/* Navbar div  */
+.navbar {
+  width: 10%;
 }
