@@ -4,19 +4,14 @@ body{
 .container{
     display: flex;
     padding: 10px;
+    margin: 0;
+    
 }
 .profile{
     width: 20%;
     height: 100%;
-    background-color: #24242F;
-    padding: 10px;
+    background-color: #24242F;   
     opacity: 2;
-}
-.maindiv{
-    width: 75%;
-    height: 100hv;
-    background-color: aqua;
-
 }
 .navbar{
     width: 5%;
@@ -57,12 +52,24 @@ h1{
     color: aliceblue;
 margin-top: 0;
 }
-ul{
+ul {
     float: left;
-    margin: 0;
+    margin-top: 20px;
+    font-size: larger;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+.coding-languages{
+    margin-top: 40px;
+    background-color:#24242F;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 .line{
     width: 90%;
     height: 2px;
     background-color: rgb(167, 201, 32);
+    border: none;
+    border-radius: 5px;
 }
