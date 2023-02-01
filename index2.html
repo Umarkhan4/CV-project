@@ -19,58 +19,58 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="./stylenew.css" />
+    <link rel="stylesheet" href="./profile.css" />
     <link rel="stylesheet" href="style/stylemain.css" />
   </head>
 
   <body>
-    <div class="container">
-      <!-- for the profile div  --> 
+    <div class="containers">
+      <!-- for the profile div  -->
       <div class="profile">
         <div class="profile-pic">
           <img class="profile-img" src="images/download.jpg" alt="" />
           <h1>Profile</h1>
           <h3 class="text">Web devloper/Designer</h3>
           <hr />
-          <div class="profile-content">
-            <h4>Resident: <span>pakistan</span></h4>
-            <h4>City: <span>Mansehra</span></h4>
-            <h4>AGE: <span>23</span></h4>
+        </div>
+        <div class="profile-content">
+          <h4>Resident: <span class="span-pakistan">pakistan</span></h4>
+          <h4>City: <span class="span-mansehra">Mansehra</span></h4>
+          <h4>AGE: <span class="span-23">23</span></h4>
+          <hr />
+          <h4>Lanuages</h4>
+          <ul>
+            English
+          </ul>
+          <ul>
+            Pashto
+          </ul>
+          <ul>
+            Urdr
+          </ul>
+          
+          <div class="coding-languages">
             <hr />
-            <h4>Lanuages</h4>
-            <ul>
-              English
-            </ul>
-            <ul>
-              Pashto
-            </ul>
-            <ul>
-              Urdr
-            </ul>
-            <div class="coding-languages">
-              <hr />
-              <h4>html</h4>
-              <hr class="line" />
-              <h4>Css</h4>
-              <hr class="line" />
-              <h4>Java</h4>
-              <hr class="line" />
-              <h4>PhP</h4>
-              <hr class="line" />
-            </div>
+            <h4>html <span>90%</span> </h4>
+            <hr class="line" />
+            <h4>Css</h4>
+            <hr class="line" />
+            <h4>Java</h4>
+            <hr class="line" />
+            <h4>PhP</h4>
+            <hr class="line" />
           </div>
         </div>
-      </div> 
-    
-
+      </div>
 
       <!-- for the main information  -->
       <div class="maindiv">
         <div class="top-img">
-        <h1 class="image-text">
-          <span> Discover my Amazing <br />Art Space! </span>
-        </h1>
-      </div>
+          <h1 class="image-text">
+            <span> Discover my Amazing <br />Art Space! <br><marquee behavior="" direction="libero">i am a web developer</marquee> </span>
+            
+          </h1>
+        </div>
         <div class="feed-back">
           <div>
             <span>10 +</span>
@@ -119,7 +119,7 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Deserunt laborum repudiandae pariatur aliquam. Distinctio a
                   obcaecati voluptatem necessitatibus, deleniti illo molestias
-                  sit corrupti nulla minima doloremque ea quae fuga odit!
+                  sit corrupti nulla minima doloremque 
                 </p>
                 <button type="button" class="btn btn-lg btn-block btn-warning">
                   Order Now >
@@ -138,7 +138,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
                   placeat culpa cumque amet recusandae vero, doloremque facilis
                   itaque nihil tempora sint saepe alias necessitatibus illum
-                  voluptate provident minus libero. Suscipit?
+                  voluptate provident minus libero.
                 </p>
                 <button type="button" class="btn btn-lg btn-block btn-warning">
                   Order Now >
@@ -150,7 +150,21 @@
       </div>
 
       <!-- for the side navigation  -->
-      <div class="navbar"></div>
+      <div id="navigation">
+      <div id="menu" onclick="onclickMenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+            <ul class="nav" id="nav">
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Gallary</a></li>
+            </ul>
+
+      </div>
+      <script src="/script.js"></script>
     </div>
   </body>
 </html>
