@@ -121,7 +121,7 @@ flex-direction: row;
     margin-left: 20px;
 
 }
-.feed-back {
+/* .feed-back {
      display: flex;
      margin: 20px;
   }
@@ -137,8 +137,8 @@ flex-direction: row;
   .feed-back div span {
     color: #ffc107;
     font-size: 30px;
-    font-weight: bold;
-  } 
+    font-weight: bold;}*/
+   
   /* nav bar css  */
   #menu{
     width: 30px;
@@ -216,5 +216,90 @@ justify-content: center;
 @media only screen and (max-width:500px) {
     .change{
         width: 100%;
+    }
+}
+/* num generantion  */
+.feed-back{
+    height: 50px;
+    width: 100%;
+}
+.wapper{
+    position: absolute;
+    width: 50vw;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.container{
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em o;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid yellow;
+}
+i{
+    color: rgb(247, 251, 16);
+    font-size: 2.5rem;
+    text-align: center;
+}
+span.num{
+color: #fff;
+display: grid;
+place-items: center;
+font-weight: 600;
+font-size: 3em;
+
+}
+span.text{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+
+}
+@media screen and (max-width: 1024px) {
+    .wapper{
+        width: 85vmin;
+    }
+    .container{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .wapper{
+        width: 90vmin;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .container{
+        height: 30vmin;
+        width: calc(50% - 40px);
+        font-size: 14px;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    .wapper{
+        gap: 15px;
+    }
+    .container{
+        height: 26vmin;
+        width: 90%;
+        font-size: 10px;
+
     }
 }
